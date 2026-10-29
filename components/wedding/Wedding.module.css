@@ -4,3 +4,182 @@
 @media(max-width:750px){.header{height:72px}.monogram{font-size:26px}.menuButton{display:block;background:none;border:0;color:var(--wine);font-size:10px;padding:12px}.nav{display:none;position:absolute;top:72px;left:0;right:0;background:var(--ivory);padding:20px 6% 30px;box-shadow:0 15px 20px #39272b0a}.navOpen{display:flex;flex-direction:column;align-items:stretch;gap:0}.nav>a{padding:13px 0;font-size:12px}.nav .navRsvp{padding:12px 18px;margin-top:10px}.heroInner{grid-template-columns:1fr;padding:35px 7% 45px;gap:35px}.heroCopy{text-align:center}.heroCopy .eyebrow{justify-content:center;font-size:6.5px;letter-spacing:1.3px}.heroPrelude{margin-top:25px;font-size:22px}.hero h1{font-size:100px;margin:22px auto 25px;max-width:330px;text-align:left;padding-left:10px}.hero h1 span{left:245px;top:50px;font-size:53px}.hero h1 em{margin-left:60px}.heroTagline{font-size:19px}.heroDate{justify-content:center;gap:13px;font-size:8px;letter-spacing:1.2px;margin:22px 0}.heroActions{justify-content:center;flex-wrap:wrap;gap:22px}.heroArt{max-width:440px;width:100%;margin:auto;padding:10px 28px 15px}.photoFrame{height:420px}.heroFlower{right:-15px;width:200px}.dateSeal{left:5px;bottom:35px}.artLabel{right:0;font-size:7px}.heroBottom{padding:16px 6%;font-size:6px;letter-spacing:1px}.heroBottom>span{max-width:130px}.heroBottom a{gap:8px;align-items:center}.countdownSection{grid-template-columns:1fr;text-align:center;gap:25px;padding:34px 7%}.countdownIntro .eyebrow{justify-content:center;font-size:7px}.countdownIntro h2{font-size:28px}.countdown{justify-content:center;gap:30px}.countdown strong{font-size:43px}.countdown>div:not(:last-child):after{right:-19px}.ist{grid-column:1;margin-top:-7px}.section{padding:70px 7%}.sectionTitle{margin-bottom:35px}.sectionTitle h2,.galleryHeading h2,.invitationSection h2,.venue h2{font-size:42px;letter-spacing:-1px}.sectionTitle p{font-size:11px}.coupleGrid{grid-template-columns:1fr 1fr;gap:20px;align-items:start;position:relative}.coupleAnd{position:absolute;left:calc(50% - 15px);top:150px;z-index:3;font-size:40px;pointer-events:none}.coupleAnd span{display:none}.personPhoto,.bridePlaceholder{height:260px;margin-bottom:22px}.person h3{font-size:23px}.person>p{font-size:8px}.bridePlaceholder>span{font-size:75px}.bridePlaceholder p{font-size:16px;padding:0 15px}.bridePlaceholder small{font-size:6px;letter-spacing:.4px;padding:0 8px}.brideFlower{width:150px}.celebrations{padding:70px 7%}.events{grid-template-columns:1fr;gap:20px;max-width:420px}.event{padding:27px}.eventTop{font-size:9px}.event h3{font-size:38px}.eventWhen strong{font-size:13px}.eventAddress{min-height:0;font-size:11px}.eventNote{min-height:0}.eventLinks{margin-top:20px}.eventFoot{font-size:15px;line-height:1.5}.galleryHeading{display:block}.galleryHeading>p{margin-top:22px;font-size:11px}.galleryHeading>p br{display:none}.galleryHeading>p span{margin-top:10px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:280px 240px;gap:12px}.galleryItem:first-child{grid-row:auto;grid-column:1}.galleryItem:nth-child(3){grid-column:auto;grid-row:auto}.galleryItem>span{padding:35px 12px 12px;font-size:15px;gap:8px}.galleryItem small{display:none}.story{padding:60px 7%}.story h2{font-size:45px}.storyLine{gap:25px}.storyLine b{font-size:19px}.story>p{font-size:9px}.invitationSection{grid-template-columns:1fr;gap:40px;text-align:center}.invitationSection p br{display:none}.inviteHint{justify-content:center}.envelope{max-width:390px;margin:auto;height:230px}.venue{grid-template-columns:1fr;gap:35px}.venue h2{font-size:57px}.venueText>p{max-width:100%}.map{height:320px}.rsvp{grid-template-columns:1fr;padding:65px 7%;gap:25px}.rsvpIntro h2{font-size:55px}.rsvpIntro>svg{width:50px;margin-top:20px}.formRow{gap:12px}.form label{font-size:10px}.form select{font-size:10px;padding:11px 8px}.footer{padding:65px 7% 0}.footer>p:not(.eyebrow){font-size:17px;max-width:270px;margin:auto;line-height:1.6}.footerDate{margin-bottom:40px}.footerBottom{flex-wrap:wrap;justify-content:center;font-size:6px;gap:12px 25px;padding-bottom:65px}.footerBottom>span:last-child{flex-basis:100%}.footerFlower{width:150px;left:-50px}.sound{right:13px;bottom:13px;font-size:8px;padding:5px 11px}.sound>span{font-size:16px}.lightbox{width:95vw;height:80vh}.lightboxInner>img{padding:15px 10px 60px}.inviteDialog{padding:55px 10px 15px}.heroFlower,.brideFlower{animation:none}}
 @media(max-width:380px){.hero h1{font-size:86px;max-width:285px}.hero h1 span{left:215px;top:42px}.heroCopy .eyebrow{font-size:5.5px}.photoFrame{height:350px}.countdown{gap:18px}.countdown>div:not(:last-child):after{right:-12px}.countdown strong{font-size:36px}.countdown>div{min-width:47px}.coupleGrid{gap:14px}.personPhoto,.bridePlaceholder{height:220px}.person h3{font-size:20px}.coupleAnd{top:130px}.gallery{grid-template-rows:240px 200px}.galleryItem>span{font-size:13px}.formRow{grid-template-columns:1fr}.heroActions{gap:16px}.heroActions .button{padding:13px 18px;gap:24px}}
 @media(prefers-reduced-motion:reduce){.waiting{opacity:1;transform:none}.tilt{transform:none}.heroCopy,.heroArt{animation:none}.envelopeFlap{transform:none!important}.galleryItem:hover img{transform:none}}
+
+/* Keep invitation typography and ornaments in predictable, responsive flow. */
+.hero h1{display:flex;flex-direction:column;align-items:flex-start;gap:0;line-height:1.03;max-width:100%;width:100%;letter-spacing:-.035em}
+.hero h1 span{position:static;display:block;align-self:center;font-size:.38em;line-height:1.05;margin:-.02em 0;color:var(--gold)}
+.hero h1 em{margin:0;align-self:center;line-height:1.05}
+.heroCopy,.heroArt,.venueText,.rsvpIntro,.form,.galleryHeading>div{min-width:0}
+.heroCopy .eyebrow{flex-wrap:wrap}
+.photoCaption{padding:0 16px;font-size:clamp(15px,1.7vw,23px);line-height:1.4;overflow-wrap:break-word}
+.eventAddress,.venueText>p,.person>p{overflow-wrap:anywhere}
+@media(max-width:1050px) and (min-width:751px){.hero h1{font-size:clamp(66px,8.5vw,95px)}.hero h1 span{font-size:.38em}}
+@media(max-width:750px){
+ .header{padding-left:7%;padding-right:7%}
+ .monogram{margin-left:8px}
+ .heroCopy{text-align:center}
+ .hero h1{font-size:clamp(64px,19vw,100px);max-width:100%;padding:0;margin:20px auto 24px;align-items:center;line-height:1.05}
+ .hero h1 span{position:static;align-self:center;font-size:.34em;line-height:1.25;margin:0}
+ .hero h1 em{margin:0;align-self:center;line-height:1.1}
+ .heroPrelude{font-size:clamp(20px,5.2vw,26px)}
+ .heroTagline{font-size:clamp(17px,4.5vw,21px);line-height:1.5;max-width:100%;margin-inline:auto}
+ .heroArt{display:flex;flex-direction:column;align-items:center;gap:20px;padding:5px 12px 0;max-width:390px;perspective:none}
+ .heroPortrait{width:100%;max-width:340px;margin:0;padding:9px;transform:none}
+ .photoFrame{height:auto;aspect-ratio:3/4;min-height:0}
+ .photoCaption{font-size:clamp(15px,4vw,19px);line-height:1.35;bottom:20px;padding:0 16px;white-space:normal}
+ .heroFlower,.petalOne,.petalTwo,.petalThree{display:none}
+ .dateSeal{position:relative;inset:auto;width:100px;height:100px;flex-shrink:0;transform:none;box-shadow:0 5px 15px #391b2b12;margin:0}
+ .dateSeal strong{font-size:27px}
+ .dateSeal span{font-size:5.5px;letter-spacing:1.2px}
+ .artLabel{position:static;writing-mode:horizontal-tb;text-align:center;font-size:6px;letter-spacing:1.7px;line-height:1.8;max-width:100%}
+ .heroDate{flex-wrap:wrap;row-gap:6px}
+ .heroActions{gap:16px;flex-wrap:wrap}
+ .heroBottom{gap:18px;align-items:center;line-height:1.8}
+ .heroBottom a{flex-shrink:0;font-size:6px;letter-spacing:.7px}
+ .countdown{gap:clamp(12px,5vw,30px)}
+ .countdown>div{min-width:42px}
+ .countdown>div:not(:last-child):after{right:clamp(-18px,-3vw,-9px)}
+ .countdown span{font-size:6px;letter-spacing:1.1px}
+ .rsvpIntro h2{font-size:clamp(40px,11vw,55px);overflow-wrap:break-word}
+ .footer h2{font-size:clamp(40px,11vw,65px)}
+ .sound{right:12px;bottom:12px;max-width:115px}
+ .tilt{transform:none}
+}
+@media(max-width:550px){
+ .coupleGrid{grid-template-columns:minmax(0,1fr);gap:38px;max-width:320px}
+ .coupleAnd{position:static;padding:0;font-size:42px;line-height:1}
+ .personPhoto,.bridePlaceholder{height:auto;aspect-ratio:4/5;max-width:100%}
+ .person h3{font-size:28px}
+ .person>p{font-size:11px;max-width:280px}
+ .bridePlaceholder p{font-size:22px}
+ .bridePlaceholder small{font-size:8px}
+ .bridePlaceholder>span{font-size:95px}
+ .gallery{grid-template-rows:240px 220px}
+ .galleryItem>span{font-size:14px}
+ .sectionTitle h2,.galleryHeading h2,.invitationSection h2{font-size:clamp(32px,9vw,42px)}
+ .sectionTitle p br{display:none}
+ .formRow{grid-template-columns:minmax(0,1fr)}
+ .storyLine{gap:18px}
+ .storyLine b{font-size:17px}
+ .preview{overflow-wrap:break-word}
+}
+@media(max-width:360px){
+ .hero h1{font-size:clamp(58px,19vw,68px)}
+ .hero h1 span{font-size:.34em}
+ .heroArt{padding-inline:5px}
+ .heroActions{flex-direction:column;gap:18px}
+ .heroActions .button{width:100%;max-width:240px}
+ .countdown strong{font-size:34px}
+ .heroBottom{flex-direction:column;gap:10px;text-align:center}
+ .heroBottom>span{max-width:100%}
+ .gallery{grid-template-columns:minmax(0,1fr);grid-template-rows:none;grid-auto-rows:340px}
+ .galleryItem:first-child,.galleryItem:nth-child(3){grid-column:auto;grid-row:auto}
+}
+
+/* Whole-page layout safeguards across compact, tablet and wide viewports. */
+.heroInner,.coupleGrid,.events,.gallery,.invitationSection,.venue,.rsvp,.formRow{min-width:0}
+.heroInner{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.invitationSection{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+.venue,.rsvp{grid-template-columns:repeat(2,minmax(0,1fr))}
+.heroActions,.eventLinks,.footerBottom{flex-wrap:wrap}
+.heroFlower{right:-35px;width:180px;opacity:.3;z-index:1}
+.heroArt{padding-bottom:30px}
+.dateSeal{bottom:-12px;left:-5px;width:100px;height:100px}
+.dateSeal strong{font-size:27px}
+.dateSeal span{font-size:5.5px}
+.artLabel{right:-6px;font-size:6px;letter-spacing:1.8px}
+.photoCaption{font-size:18px;bottom:35px;padding-left:45px}
+.event{height:100%}
+.event>article{display:flex;flex-direction:column;height:100%}
+.eventAddress{min-height:0;flex:1}
+.eventLinks{gap:12px;margin-top:22px}
+.textLink{min-height:44px;align-items:center}
+.menuButton,.nav>a,.close,.sound,.lightboxControls button{min-height:44px}
+.close{width:44px;height:44px}
+.form input,.form select,.form textarea{font-size:16px;min-width:0;max-width:100%}
+.form label{font-size:12px}
+.formRow{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)}
+.lightbox{width:min(900px,calc(100vw - 24px));height:85vh;height:85dvh;max-height:calc(100dvh - 24px)}
+.inviteDialog{width:min(620px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow-y:auto;overscroll-behavior:contain}
+.lightboxControls{gap:12px}
+.lightboxControls button{min-width:52px}
+.envelope{max-width:100%}
+.galleryItem>span{line-height:1.4}
+.galleryItem b{flex-shrink:0}
+@media(min-width:751px) and (max-width:1100px){
+ .heroActions{gap:14px}
+ .heroActions .button{gap:18px;padding-inline:18px}
+ .events{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .event:last-child{grid-column:1/-1;max-width:520px;width:100%;justify-self:center}
+ .countdownSection{grid-template-columns:minmax(0,1fr);text-align:center;gap:24px}
+ .countdownIntro .eyebrow{justify-content:center}
+ .countdown{justify-content:center;gap:40px}
+ .countdown>div:not(:last-child):after{right:-25px}
+ .ist{grid-column:1;margin-top:0}
+ .rsvp{gap:40px}
+ .rsvpIntro h2{font-size:clamp(40px,5.8vw,60px)}
+ .venue{gap:35px}
+ .venue h3{font-size:23px;line-height:1.3}
+ .invitationSection{gap:28px}
+ .invitationSection h2{font-size:clamp(34px,4.2vw,48px)}
+ .gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:350px 350px}
+ .galleryItem:first-child,.galleryItem:nth-child(3){grid-column:auto;grid-row:auto}
+ .galleryHeading{align-items:flex-start}
+ .galleryHeading h2{font-size:clamp(36px,4vw,48px)}
+}
+@media(max-width:750px){
+ .heroInner,.invitationSection,.venue,.rsvp{grid-template-columns:minmax(0,1fr)}
+ .heroArt{padding-bottom:0}
+ .dateSeal{position:static;margin:0;width:100px;height:100px}
+ .photoCaption{font-size:clamp(15px,4vw,19px);padding-inline:16px;bottom:20px}
+ .artLabel{position:static;font-size:7px;letter-spacing:1.5px}
+ .coupleGrid{grid-template-columns:minmax(0,1fr) 45px minmax(0,1fr);gap:12px;align-items:center}
+ .coupleAnd{position:static;padding:0;font-size:40px;line-height:1.2;align-self:center;transform:translateY(-45px)}
+ .personPhoto,.bridePlaceholder{height:auto;aspect-ratio:3/4}
+ .person h3{font-size:clamp(21px,3.5vw,27px);line-height:1.2}
+ .person>p{font-size:11px}
+ .bridePlaceholder small{font-size:8px}
+ .bridePlaceholder p{line-height:1.4}
+ .galleryItem>span{gap:8px;flex-wrap:wrap}
+ .galleryHeading>p br{display:initial}
+ .sectionTitle p,.invitationSection p,.venueText>p,.rsvpIntro p{font-size:14px}
+ .eventAddress{font-size:13px}
+ .eventWhen strong{font-size:14px}
+ .event h4{font-size:14px;line-height:1.6}
+ .eventWhen span{font-size:12px}
+ .eventTop{font-size:10px}
+ .textLink{font-size:12px}
+ .heroActions .textLink{font-size:11px}
+ .formRow{grid-template-columns:minmax(0,1fr)}
+ .form select{font-size:16px}
+ .footerBottom{font-size:8px;letter-spacing:1px;line-height:1.8}
+ .sound{position:static;display:block;margin:0 auto 20px;background:var(--ivory);font-size:11px}
+ .lightboxInner>img{padding:60px 10px 75px}
+ .lightboxControls{left:15px;right:15px}
+ .inviteDialog{padding-top:64px}
+ .envelopeCaption{font-size:8px;letter-spacing:1px;padding-inline:12px}
+}
+@media(max-width:550px){
+ .coupleGrid{grid-template-columns:minmax(0,1fr);gap:32px}
+ .coupleAnd{transform:none}
+ .personPhoto,.bridePlaceholder{aspect-ratio:4/5}
+ .person h3{font-size:28px}
+ .gallery{grid-template-columns:minmax(0,1fr);grid-template-rows:none;grid-auto-rows:auto}
+ .galleryItem{aspect-ratio:4/5;min-height:0}
+ .galleryItem:first-child,.galleryItem:nth-child(3){grid-column:auto;grid-row:auto}
+ .galleryItem>span{font-size:19px;flex-wrap:nowrap}
+ .storyLine{flex-wrap:wrap}
+ .storyLine span{min-width:100px}
+ .kicker{font-size:8px;letter-spacing:1.5px}
+ .heroCopy .eyebrow{font-size:8px;letter-spacing:1px}
+ .heroCopy .eyebrow>span{display:none}
+ .heroDate{font-size:9px;letter-spacing:.8px;gap:12px}
+ .footerDate{font-size:9px;letter-spacing:1.2px}
+ .event{padding:24px}
+}
+@media(max-width:360px){.storyLine{flex-direction:column;gap:18px}.heroDate{flex-direction:column;gap:8px}.heroDate i{display:none}.event{padding:20px}.event h3{font-size:34px}.countdown{gap:14px}.countdown>div{min-width:40px}}
+@media(max-height:500px) and (orientation:landscape){.lightbox{height:calc(100dvh - 16px);max-height:calc(100dvh - 16px)}.lightboxInner>img{padding:12px 65px 60px}.inviteDialog{max-height:calc(100dvh - 16px)}}
+.sound{position:static;display:block;margin:0 auto 20px;min-height:44px;font-size:11px}
+.eventLinks>a{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.inviteDialog .close{position:sticky;top:0;float:right;margin-top:-50px;margin-right:0}
+@media(prefers-reduced-motion:reduce){.waiting,.visible{opacity:1;transform:none}.photoFrame,.galleryItem img{transform:none!important}}
